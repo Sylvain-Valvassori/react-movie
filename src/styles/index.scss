@@ -1,0 +1,11 @@
+@use './Library' as *;
+
+html{
+    background-color: $clr-lightGrey;
+    color: $clr-white;
+    h1{
+        font-size: 3rem;
+        font-family: $fnt-main;
+        color: $clr-main;
+    }
+}
