@@ -1,4 +1,4 @@
-<p align="right"><img src="https://badgen.net/badge/MADE BY/Sylvain Valvassori/black"> <img src="https://badgen.net/github/last-commit/Sylvain-Valvassori/movie-app2/main"> <img src="https://badgen.net/github/release/Sylvain-Valvassori/movie-app2/black?icon=bitcoin-lightning"> 
+<p align="right"><img src="https://badgen.net/badge/MADE BY/Sylvain Valvassori/black"> <img src="https://badgen.net/github/last-commit/Sylvain-Valvassori/react-movie/main"> <img src="https://badgen.net/github/release/Sylvain-Valvassori/react-movie/black?icon=bitcoin-lightning"> 
 <br><br>
 
 <h1 align="center">Movie app</h1>
