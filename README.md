@@ -8,7 +8,7 @@
 - Author : Sylain Valvassori.
 - Origin : [model](https://www.figma.com/community/file/1029773770284800157).
 - Start date : January 25th 2022.
-- End product : [:point_right: Movie app :point_left:](https://sylvain-valvassori.github.io/movie-app2/)
+- End product : [:point_right: Movie app :point_left:](https://sylvain-valvassori.github.io/react-movie/)
 
 #### Context : Movie app is a project adapted from this [model](https://www.figma.com/community/file/1029773770284800157) to learn the basics of : React, API, Responsive.<br>
 
