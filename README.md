@@ -2,18 +2,14 @@
 
 <br><br>
 
-<h1 align="center">Movie app</h1>
+<h1 align="center">React Movie</h1>
 
 ### About
 
 - Author : Sylain Valvassori.
 - Origin : [model](https://www.figma.com/community/file/1029773770284800157).
 - Start date : January 25th 2022.
-<<<<<<< HEAD
-- End product : [:point_right: Movie app :point_left:](https://sylvain-valvassori.github.io/movie-app2/)
-=======
 - End product : [:point_right: Movie app :point_left:](https://sylvain-valvassori.github.io/react-movie/)
->>>>>>> d1bc0afed5fe7238ae3506827e6d8fe3f59be2a5
 
 #### Context : Movie app is a project adapted from this [model](https://www.figma.com/community/file/1029773770284800157) to learn the basics of : React, API, Responsive.<br>
 
