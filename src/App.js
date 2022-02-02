@@ -21,16 +21,13 @@ export default function App() {
   }, []);
 
 
-
-
-
   return (
       <>
         <BrowserRouter>
         <Header />        
           <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/Page2" element={<Page2 />} />
+              <Route path="/react-movie" element={<Home />} />
+              <Route path="/react-movie/Page2" element={<Page2 />} />
           </Routes>
         </BrowserRouter>
       </>

@@ -1,19 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 
 import '../styles/components/header.scss'
 
 
 export default function Header() {
+
+    const [sidebar, setSidebar] = useState(false);
+    const showSidebar = () => setSidebar(!sidebar);
+
+
     return (
         <>
             <header>
                 <div className="menu">
-                    <img src="http://placehold.it/" alt="place" />
-                        <nav className="nav">
-                            <ul>
-                                <NavLink to="/"><li>Home</li></NavLink>
-                                <NavLink to="/Page2"><li>Page2</li></NavLink>
+                    <div className="iconMenu" onClick={showSidebar}></div>
+                        <nav className={sidebar ? 'navMenu active' : 'navMenu'}>
+                            <ul onClick={showSidebar}>
+                                <NavLink to="/react-movie"><li>Home</li></NavLink>
+                                <NavLink to="/react-movie/Page2"><li>Page2</li></NavLink>
                             </ul>
                         </nav>
                 </div>
@@ -21,3 +26,4 @@ export default function Header() {
         </>
     )
 }
+

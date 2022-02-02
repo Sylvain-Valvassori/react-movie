@@ -1,10 +1,81 @@
 @use '../Library' as *;
 
 header{
-    background-color: $clr-main;
-    max-height: 20rem;
+    background-color: $clr-lightGrey;
+    margin-bottom: 3rem;
     width: 100%;
+    z-index: 1;
 
-    text-align: center;
-    padding: 1rem;
+    
+    .iconMenu{
+        cursor: pointer;
+        width: 2rem;
+        aspect-ratio: 1;
+        position: fixed;
+        top: 5rem;
+        right: 5rem;
+        z-index: 100;
+
+        &::before, &::after {
+            content: "";
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            width: 2rem;
+            aspect-ratio: 1;  
+            border: .2rem solid $clr-white;
+            border-radius: 50%;
+
+            transition: all .4s ease-in-out;
+        }
+        &::after {
+            width: .1rem;
+            border-color: $clr-secondary;
+            z-index: -1;
+        }
+        &:hover{
+            &::before {
+                border-color: $clr-white;
+                width: 2.5rem;
+            }
+            &::after {
+                width: 4rem;
+            }
+        }
+        &:active{
+            &::after {
+                background-color: $clr-secondary;
+            }
+        }
+    }
+    .navMenu{
+        position: fixed;
+        top: 0;
+        left: -100vw;
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        align-items: center;
+        text-align: center;
+        transition: all .3s ease-in-out;
+
+        ul{
+            li{
+                margin-bottom: 1rem;
+                text-decoration: none;
+                color: $clr-white;
+                font-family: $fnt-main;
+                font-size: 4rem;
+                
+                &:hover{
+                    color: $clr-secondary;
+                }
+            }
+        }
+        &.active{
+            left: 0;
+            background-color: rgba($clr-P2-C1, .7);
+        }
+    }
 }

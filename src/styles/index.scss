@@ -8,21 +8,4 @@ html{
         font-family: $fnt-main;
         color: $clr-white;
     }
-
-    
-    ul{
-        li{
-            display: inline-block;
-            margin-right: 1rem;
-            text-decoration: none;
-            color: $clr-white;
-            font-family: $fnt-main;
-            font-size: 2rem;
-            
-            &:hover{
-                color: $clr-secondary;
-            }
-        }
-
-    }
 }
