@@ -1,7 +1,13 @@
+import SearchForm from "../components/SearchForm";
+
 export default function Home() {
   return (
     <>
-        <h1>Hellooooooo !! Home</h1>
+        <h1>Welcome Home</h1>
+        <SearchForm />
+        <section className="containerHome">
+          <div className="itemBlockList"></div>
+        </section>
     </>
   );
 };

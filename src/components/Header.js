@@ -15,12 +15,12 @@ export default function Header() {
             <header>
                 <div className="menu">
                     <div className="iconMenu" onClick={showSidebar}></div>
-                        <nav className={sidebar ? 'navMenu active' : 'navMenu'}>
-                            <ul onClick={showSidebar}>
-                                <NavLink to="/react-movie"><li>Home</li></NavLink>
-                                <NavLink to="/react-movie/Page2"><li>Page2</li></NavLink>
-                            </ul>
-                        </nav>
+                    <nav className={sidebar ? 'navMenu active' : 'navMenu'}>
+                        <ul onClick={showSidebar}>
+                            <NavLink to="/react-movie"><li>Home</li></NavLink>
+                            <NavLink to="/react-movie/MyList"><li>My list</li></NavLink>
+                        </ul>
+                    </nav>
                 </div>
             </header>
         </>

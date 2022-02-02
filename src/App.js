@@ -5,9 +5,10 @@ import {  BrowserRouter, Route, Routes } from 'react-router-dom'
 // components
 import Header from './components/Header';
 
+
 // pages
 import Home from './pages/Home'
-import Page2 from './pages/Page2';
+import MyList from './pages/MyList';
 
 
 // functions
@@ -24,10 +25,10 @@ export default function App() {
   return (
       <>
         <BrowserRouter>
-        <Header />        
+        <Header />       
           <Routes>
               <Route path="/react-movie" element={<Home />} />
-              <Route path="/react-movie/Page2" element={<Page2 />} />
+              <Route path="/react-movie/MyList" element={<MyList />} />
           </Routes>
         </BrowserRouter>
       </>
