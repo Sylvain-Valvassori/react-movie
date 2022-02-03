@@ -9,13 +9,12 @@
     justify-content: space-between;
 	align-items: center;
     overflow: hidden;
-    justify-self: start;
     // width: 18rem;
     // height: 25rem;
     
     // mobile
-    width: 12rem;
-    height: 19rem;
+    min-width: 10rem;
+    height: 15rem;
 
     border: .1rem solid rgba($clr-P1-C4, .4);
     border-radius: .5rem;
@@ -34,7 +33,7 @@
         font-size: 1.5rem;
         font-weight: 600;
 
-        padding: 2rem;
+        padding: .5rem 1rem;
     }
     .movie-title{
         padding-left: 2rem;
@@ -48,7 +47,7 @@
         
         h2{
             font-family: $fnt-main;
-            font-size: min(max(3rem), 1rem);
+            font-size: min(max(3rem), 2rem);
             font-weight: 600;
         }
     }

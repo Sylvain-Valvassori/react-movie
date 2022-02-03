@@ -22,27 +22,31 @@ html{
         height: 50vh;
         padding: 2rem;
         .moviesCardsContainer{
-            min-width: 48rem;
-            height: fit-content;
+            max-width: 100rem;
+            margin: auto;
             border-radius: 1rem;
             background-color: $clr-main;
 
             display: grid;
-            justify-items: center;
-            align-items: center;
+            grid-template-columns: repeat(auto-fit, 10rem);
+            grid-gap: 1rem;
+            justify-content: center;
             
-            inset: 0;
-            margin: auto;
-            padding: 2rem;
-            .moviesCards{
-                display: flex;
-                flex-wrap: wrap;
-                gap: 2rem 1rem;
-                align-content: flex-start;
-                justify-content:flex-start;
+            
+            
+            // justify-items: center;
+            // align-items: center;
+            
+            padding: 1rem;
+
+            // .moviesCards{
+            //     display: flex;
+            //     flex-wrap: wrap;
+            //     gap: 1rem .8rem;
+            //     align-content: flex-start;
                 
-                padding: 0 6.225%;
-            }
+            //     background-color: #fff;
+            // }
         }
 
         &.userList div{

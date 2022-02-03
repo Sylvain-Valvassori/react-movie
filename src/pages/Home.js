@@ -20,9 +20,7 @@ export default function Home() {
         <SearchForm />
         <section className="containerHome">
           <div className="moviesCardsContainer">
-            <div className="moviesCards">
-              {movie10()}
-            </div>
+            {movie10()}
           </div>
         </section>
     </>
