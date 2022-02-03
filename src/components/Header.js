@@ -18,7 +18,7 @@ export default function Header() {
                     <nav className={sidebar ? 'navMenu active' : 'navMenu'}>
                         <ul onClick={showSidebar}>
                             <NavLink to="/react-movie"><li>Home</li></NavLink>
-                            <NavLink to="/react-movie/MyList"><li>My list</li></NavLink>
+                            <NavLink to="/react-movie/UserList"><li>My list</li></NavLink>
                         </ul>
                     </nav>
                 </div>

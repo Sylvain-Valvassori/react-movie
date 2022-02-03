@@ -1,0 +1,55 @@
+@use '../Library' as *;
+
+
+.movie-card{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	align-items: center;
+    overflow: hidden;
+    justify-self: start;
+    // width: 18rem;
+    // height: 25rem;
+    
+    // mobile
+    width: 12rem;
+    height: 19rem;
+
+    border: .1rem solid rgba($clr-P1-C4, .4);
+    border-radius: .5rem;
+    
+    background-image: $img2;
+    // background-image: url(/images/space.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+    
+    .movie-grade{
+        align-self: end;
+
+        font-family: $fnt-main;
+        font-size: 1.5rem;
+        font-weight: 600;
+
+        padding: 2rem;
+    }
+    .movie-title{
+        padding-left: 2rem;
+        width: 100%;
+        height: 5rem;
+        display: grid;
+        align-items: center;
+        
+        background: linear-gradient(0deg, rgba($clr-black,.8) 0%, rgba($clr-black,0) 100%);
+
+        
+        h2{
+            font-family: $fnt-main;
+            font-size: min(max(3rem), 1rem);
+            font-weight: 600;
+        }
+    }
+}

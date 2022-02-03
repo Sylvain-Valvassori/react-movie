@@ -8,7 +8,7 @@ import Header from './components/Header';
 
 // pages
 import Home from './pages/Home'
-import MyList from './pages/MyList';
+import UserList from './pages/UserList';
 
 
 // functions
@@ -28,7 +28,7 @@ export default function App() {
         <Header />       
           <Routes>
               <Route path="/react-movie" element={<Home />} />
-              <Route path="/react-movie/MyList" element={<MyList />} />
+              <Route path="/react-movie/UserList" element={<UserList />} />
           </Routes>
         </BrowserRouter>
       </>

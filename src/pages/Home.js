@@ -1,4 +1,17 @@
+import MovieCard from "../components/MovieCard";
 import SearchForm from "../components/SearchForm";
+
+
+// méthodes
+
+const movie10 = () => {
+    let movies = [];
+    for (let i = 0; i < 10; i++) {
+      movies.push(<MovieCard key={movies[i]}/>);
+    }
+    return movies;
+};
+
 
 export default function Home() {
   return (
@@ -6,9 +19,12 @@ export default function Home() {
         <h1>Welcome Home</h1>
         <SearchForm />
         <section className="containerHome">
-          <div className="itemBlockList"></div>
+          <div className="moviesCardsContainer">
+            <div className="moviesCards">
+              {movie10()}
+            </div>
+          </div>
         </section>
     </>
   );
 };
-
