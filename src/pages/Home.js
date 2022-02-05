@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import MovieCard from "../components/MovieCard";
 import SearchForm from "../components/SearchForm";
 
@@ -23,6 +24,7 @@ export default function Home() {
             {movie10()}
           </div>
         </section>
+        <Footer />
     </>
   );
 };
