@@ -4,7 +4,7 @@ header{
     background-color: $clr-lightGrey;
     margin-bottom: 3rem;
     width: 100%;
-    z-index: 1;
+    z-index: 999999;
     
     .iconMenu{
         cursor: pointer;
@@ -13,7 +13,7 @@ header{
         position: fixed;
         top: 5rem;
         right: 5rem;
-        z-index: 100;
+        z-index: 999999;
 
         &::before, &::after {
             content: "";
